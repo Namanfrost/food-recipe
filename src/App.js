@@ -11,7 +11,6 @@ const App = () => {
   const [search, setSearch] = useState("");
   const [query, setQuery] = useState("chicken");
 
-
   const LINK = `https://api.edamam.com/search?q=${query}&app_id=${APP_ID}&app_key=${APP_KEY}`;
 
   const getRecipes = async () => {
