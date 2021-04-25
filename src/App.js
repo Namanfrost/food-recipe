@@ -35,6 +35,7 @@ const App = () => {
     setSearch("");
   };
 
+
   return (
     <div className="App">
       <form onSubmit={getSearch} className="search-form">
