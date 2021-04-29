@@ -1,33 +1,33 @@
-.recipe{
-border-radius: 10px;
-box-shadow : 0px 5px 20px rgb(71, 71, 71);
-margin :  20px;
-display: flex;
-flex-direction: column;
-justify-content: space-around;
-background: white;
-align-items: center;
-min-width: 40%;
-font-size: 15px;
- }
+.recipe {
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px rgb(71, 71, 71);
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: white;
+  align-items: center;
+  min-width: 40%;
+  font-size: 15px;
+}
 
- .image{
-    border-radius: 100px;
-    width : 400px;
-     border: 1px solid #ddd;
-    height :400px;
-    border-image: 10px;
-    border-color: rgb(80, 99, 189);
-    border-width: 10px;
-    margin : 5px;
- }
+.image {
+  border-radius: 100px;
+  width: 400px;
+  border: 1px solid #ddd;
+  height: 400px;
+  border-image: 10px;
+  border-color: rgb(40, 220, 76);
+  border-width: 10px;
+  margin: 5px;
+}
 
- .heading{
- color: rgb(85, 85, 199);
+.heading {
+  color: rgb(250, 65, 9);
 }
 
 .p1 {
-   font-family: 'Brush Script MT', cursive;
+  font-family: "Brush Script MT", cursive;
 }
 
 .p2 {
