@@ -13,23 +13,25 @@ const App = () => {
 
   const LINK = `https://api.edamam.com/search?q=${query}&app_id=${APP_ID}&app_key=${APP_KEY}`;
 
+  //async await call
   const getRecipes = async () => {
     const response = await fetch(LINK);
     const data = await response.json();
     setRecipes(data.hits);
-    console.log(data.hits);
+
+    //console.log(data.hits);
   };
 
   useEffect(() => {
     getRecipes();
-  }, [query]);
+  }, [query]); // dependencies
 
   const updateSearch = (e) => {
     setSearch(e.target.value);
   };
 
   const getSearch = (e) => {
-    e.preventDefault();
+   e.preventDefault();
     setQuery(search);
     setSearch("");
   };
@@ -56,7 +58,7 @@ const App = () => {
             calories={food.recipe.calories}
             image={food.recipe.image}
             dishType={food.recipe.dishType}
-            ingredients={food.recipe.ingredientLines}
+            ingredients={food.recipe.ingredients}
           />
         ))}
       </div>
