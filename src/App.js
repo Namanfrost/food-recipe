@@ -31,9 +31,10 @@ const App = () => {
   };
 
   const getSearch = (e) => {
-   e.preventDefault();
+    e.preventDefault();
     setQuery(search);
     setSearch("");
+    console.log("hello");
   };
 
   return (

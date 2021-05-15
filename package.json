@@ -6,16 +6,19 @@
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.6",
     "@testing-library/user-event": "^12.8.3",
+    "express-favicon": "^2.0.1",
+    "express-prom-bundle": "^6.3.6",
     "prom-client": "^13.1.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
+    "serve-favicon": "^2.5.0",
     "shelljs": "^0.8.4",
     "web-vitals": "^1.1.1"
   },
   "scripts": {
     "format": "prettier \"src/**/*.{js,html}\" --write",
-    "start": "react-scripts start",
+    "start": "node server.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -39,7 +42,6 @@
     ]
   },
   "devDependencies": {
-    "babel-eslint": "^10.1.0",
     "eslint": "^7.24.0",
     "eslint-config-prettier": "^8.2.0",
     "eslint-plugin-import": "^2.22.1",
